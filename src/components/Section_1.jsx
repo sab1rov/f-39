@@ -1,4 +1,3 @@
-import '../assets/scss/components/section_1.scss'
 import chexol from '/public/images/chexol.png'
 import power from '/public/images/power.png'
 

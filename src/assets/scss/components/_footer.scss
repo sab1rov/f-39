@@ -1,20 +1,20 @@
-img{
+img {
     cursor: pointer;
 }
 
-.footer{
+.footer {
     margin-top: 100px;
-    background-color: #1E1E1E;
+    background-color: #1e1e1e;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
 
-    .footer_logo{
+    .footer_logo {
         width: 10%;
     }
 
-    .foter_inner_container{
+    .foter_inner_container {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -23,76 +23,73 @@ img{
         max-width: 1300px;
     }
 
-    .navigation{
+    .navigation {
         display: flex;
         flex-direction: column;
         gap: 10px;
 
-        .navigation_ul{
+        .navigation_ul {
             display: flex;
             flex-direction: column;
             gap: 10px;
         }
 
-        .ul_text{
+        .ul_text {
             display: flex;
             align-items: center;
             gap: 5px;
-            transition: all .2s ease-in-out;
+            transition: all 0.2s ease-in-out;
         }
-        
-        .ul_text:hover{
+
+        .ul_text:hover {
             color: darkgray;
         }
 
-        .purchase{
+        .purchase {
             display: flex;
             align-items: center;
             gap: 10px;
         }
 
-        .navigation_bumerang_logo{
+        .navigation_bumerang_logo {
             width: 50%;
         }
-
     }
 
-    .navigation_2{
+    .navigation_2 {
         display: flex;
         align-items: center;
-        gap:40px;
+        gap: 40px;
     }
-
 }
 
-@media screen and (max-width:1050px) {
-    .navigation{
+@media screen and (max-width: 1050px) {
+    .navigation {
         font-size: 50%;
     }
 
-    .navigation_h3{
-        font-size: 100%
+    .navigation_h3 {
+        font-size: 100%;
     }
 
-    .ul_text img{
+    .ul_text img {
         width: 10%;
     }
 
-    .purchase img{
+    .purchase img {
         width: 40%;
     }
 }
-@media screen and (max-width:580px) {
-    .foter_inner_container{
+@media screen and (max-width: 580px) {
+    .foter_inner_container {
         display: flex;
         flex-direction: column;
         gap: 30px;
-
     }
-    .navigation{
+    .navigation {
         font-size: 60%;
     }
-    .purchase img{
+    .purchase img {
         width: 30%;
     }
 }

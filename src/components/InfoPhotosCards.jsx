@@ -1,4 +1,3 @@
-import '../assets/scss/components/InfoPhotosCards.scss'
 import { Infoimage } from "./InfoPhoto"
 import girl from '/images/girl.png'
 import video from '/images/video.png'

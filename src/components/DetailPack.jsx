@@ -1,5 +1,4 @@
 import { Staff } from "./Staff";
-import "../assets/scss/components/DetailPack.scss";
 import detail from "/images/detail.png";
 
 export const DetailPack = () => {

@@ -1,5 +1,3 @@
-import '../assets/scss/components/InfoText.scss'
-
 export const InfoText = () => {
     return (
         <div className="info-text">
