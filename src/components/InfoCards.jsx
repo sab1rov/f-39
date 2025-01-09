@@ -1,5 +1,4 @@
 import { Product } from "./Product"
-import '../assets/scss/components/InfoCards.scss'
 import apple from '/images/apple.png'
 import huavey from "/images/huavey.png"
 import redmi from "/images/redmi.png"

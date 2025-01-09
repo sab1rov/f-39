@@ -1,4 +1,3 @@
-import '../assets/scss/components/footer.scss'
 import logo from '/public/images/logoo.png'
 import vk from '/public/images/vk.png'
 import inst from '/public/images/inst.png'

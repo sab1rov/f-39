@@ -1,5 +1,3 @@
-
-import '../assets/scss/components/InfoLists.scss'
 import { Infoimg } from "./info"
 import safe from '/images/safe.png'
 import factory from '/images/factory.png'

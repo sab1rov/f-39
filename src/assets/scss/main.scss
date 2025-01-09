@@ -1,3 +1,10 @@
-@use "./components/normalize";
+@use "./sections/normalize";
 
-@use "./sections/cart";
+@use "./components/cart";
+@use "./components/detail-pack";
+@use "./components/footer";
+@use "./components/info-cards";
+@use "./components/info-lists";
+@use "./components/info-photos-cards";
+@use "./components/info-text";
+@use "./components/section-1";

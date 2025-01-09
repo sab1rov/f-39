@@ -110,7 +110,7 @@ function Cart() {
                                             placeholder='BUY2020GOGO'
                                         />
                                     </div>
-                                    <button className='btn'>Применить</button>
+                                    <button className='bottom-label-btn'>Применить</button>
                                 </div>
                                 <div className='bottom_2'>
                                     Скидка по промокоду составит: 0%
