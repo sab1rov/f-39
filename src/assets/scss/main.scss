@@ -1,8 +1,7 @@
 @use "./sections/normalize";
 
-@use "./sections/header";
-@use "./sections/banner";
-
+@use "./components/header";
+@use "./components/banner";
 @use "./components/cart";
 @use "./components/detail-pack";
 @use "./components/footer";
