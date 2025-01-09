@@ -1,3 +1,5 @@
+import Cart from "./pages/Cart";
+
 import { Banners } from './components/section_1';
 import { Footer } from './components/Footer';
 import { InfoCards } from "./components/InfoCards";
@@ -10,6 +12,7 @@ function App (){
     return(
         < >
             <div className="container">
+                <Cart />
                 <Banners/>    
                 <InfoCards/>  
                 <DetailPack />
@@ -20,6 +23,7 @@ function App (){
             <Footer />  
         </>
     )
+
 }
 
 export default App;
