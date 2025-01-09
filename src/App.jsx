@@ -1,4 +1,4 @@
-import Cart from "./components/Cart";
+import Cart from "./pages/Cart";
 
 function App() {
     return <>
