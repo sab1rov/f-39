@@ -1,0 +1,15 @@
+.about-photos{
+    display: grid;
+    justify-content: center;
+    margin-top: 120px;
+    width: 100%;
+    .about-photos-list{
+        display: flex;
+        width: 100%;
+    }
+
+}
+
+.info-photo{
+    width: 100%;
+}
