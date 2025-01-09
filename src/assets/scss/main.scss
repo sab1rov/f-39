@@ -1,5 +1,13 @@
-@use "./components/normalise";
-@use "./components/variables";
+@use "./sections/normalize";
 
 @use "./sections/header";
 @use "./sections/banner";
+
+@use "./components/cart";
+@use "./components/detail-pack";
+@use "./components/footer";
+@use "./components/info-cards";
+@use "./components/info-lists";
+@use "./components/info-photos-cards";
+@use "./components/info-text";
+@use "./components/section-1";
