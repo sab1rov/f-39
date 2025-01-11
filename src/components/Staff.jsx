@@ -19,7 +19,7 @@ export const Staff = ({ imgUrl, title, price, old_price }) => {
                     <span>95</span>
                     <button className='minus'>-</button>
                 </div>
-                <button className='btn'>Add to Cart</button>
+                <button className='detail-pack-button'>Add to Cart</button>
             </div>
         </div>
     );
