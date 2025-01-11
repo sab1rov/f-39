@@ -1,17 +1,19 @@
 import { Product } from "./Product"
-import apple from '/images/apple.png'
-import huavey from "/images/huavey.png"
-import redmi from "/images/redmi.png"
+import { InfoCardsData } from "../constants/InfoCardsData"
 export const InfoCards = () => {
     return (
         <div className="productLists-cont">
-        <h2>Выберите бренд</h2>
-        <div className='product-list'>
-            <Product imgUrl={apple} title="Apple" />
-            <Product imgUrl={huavey} title="Huawey" />
-            <Product imgUrl={redmi} title="Xiaomy" />
-            <Product imgUrl={huavey} title="Samsung" />
+            <h2>Выберите бренд</h2>
+            <div className='product-list'>
+                {InfoCardsData.map((item) => (
+                    <div className='product-lists' key={item.id}>
+                        <Product
+                            imgUrl={item.img}
+                            title={item.title}
+                        />
+                    </div>
+                ))}
+            </div>
         </div>
-    </div>
     )
 }

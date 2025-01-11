@@ -92,4 +92,14 @@ img {
     .purchase img {
         width: 30%;
     }
+
+    .navigation_2{
+        gap: 40px;
+    }
+
+    .navigation_ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 }
